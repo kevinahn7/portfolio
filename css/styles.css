@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 97%; /* fix this */
 }
 
 img {
@@ -11,36 +12,40 @@ img {
     border: 3px solid black;
 }
 
-.content {
-    display: grid;
-    grid-gap: 10px;
-}
-
-/* Navigation */
 .mainNav ul {
     display: grid;
     grid-gap: 10px;
     list-style: none;
     padding: 0;
-    grid-template-columns: 1fr;
 }
 
 .mainNav a {
     text-decoration: none;
-    color: gray;;
+    color: black;;
 }
 
 .content {
+    width: 100%;
     display: grid;
     grid-gap: 10px;
+    grid-template-columns: 20% 80%;
     grid-template-areas: 
-        'nav main main main'
+        'nav main'
 }
 
 nav {
     grid-area: nav;
+    background-color: green;
 }
 
 main {
     grid-area: main;
+    text-align: center;
+    background-color: aqua;
+}
+
+/* Index */
+span {
+    font-size: 2rem;
+    margin: 20px;
 }
