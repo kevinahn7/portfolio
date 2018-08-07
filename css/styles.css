@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.me {
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.content {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/* Navigation */
+.mainNav ul {
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    grid-template-columns: 1fr;
+}
+
+.mainNav a {
+    text-decoration: none;
+    color: gray;;
+}
+
+.content {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+        'nav main main main'
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
