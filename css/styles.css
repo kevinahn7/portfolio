@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 97%; /* fix this */
+    width: 100%;
 }
 
 img {
@@ -12,30 +12,35 @@ img {
     border: 3px solid black;
 }
 
-.mainNav ul {
+nav {
+    grid-area: nav;
+    background-color: green;
+    min-width: 180px;
+    padding-right: 10px;
+}
+
+.navLinks {
     display: grid;
     grid-gap: 10px;
     list-style: none;
     padding: 0;
 }
 
+.navLinks a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
 .mainNav a {
     text-decoration: none;
-    color: black;;
 }
 
-.content {
-    width: 100%;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 20% 80%;
-    grid-template-areas: 
-        'nav main'
-}
-
-nav {
-    grid-area: nav;
-    background-color: green;
+.myName {
+    padding: 10px;
+    margin-bottom: 40%;
+    color: black;
 }
 
 main {
@@ -44,7 +49,14 @@ main {
     background-color: aqua;
 }
 
-/* Index */
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 100%;
+    grid-template-areas: 
+        'nav main'
+}
+
 span {
     font-size: 2rem;
     margin: 20px;
