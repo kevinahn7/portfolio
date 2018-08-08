@@ -15,7 +15,7 @@ img {
 nav {
     grid-area: nav;
     background-color: green;
-    min-width: 180px;
+
     padding-right: 10px;
 }
 
@@ -52,7 +52,7 @@ main {
 .content {
     width: 100%;
     display: grid;
-    grid-template-columns: auto 100%;
+    grid-template-columns: 10% 90%;
     grid-template-areas: 
         'nav main'
 }
