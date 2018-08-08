@@ -7,11 +7,6 @@ img {
     max-width: 100%;
 }
 
-.me {
-    border-radius: 50%;
-    border: 3px solid black;
-}
-
 nav {
     grid-area: nav;
     background-color: green;
@@ -37,6 +32,7 @@ nav {
 }
 
 .myName {
+    margin-top: 3rem;
     text-align: center;
     padding: 10px;
     margin-bottom: 40%;
@@ -60,4 +56,16 @@ main {
 span {
     font-size: 2rem;
     margin: 20px;
+}
+
+/* Index */
+.me {
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 5rem;
+}
+
+.mySkills {
+    width: 70%;
+    margin: 5rem auto;
 }
