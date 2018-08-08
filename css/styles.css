@@ -15,7 +15,6 @@ img {
 nav {
     grid-area: nav;
     background-color: green;
-
     padding-right: 10px;
 }
 
@@ -38,6 +37,7 @@ nav {
 }
 
 .myName {
+    text-align: center;
     padding: 10px;
     margin-bottom: 40%;
     color: black;
