@@ -14,7 +14,7 @@ img {
 
 nav {
     grid-area: nav;
-    background-color: green;
+    border-right: black 1px solid;
     padding-right: 10px;
 }
 
@@ -36,6 +36,10 @@ nav {
     text-decoration: none;
 }
 
+.pageHeader {
+    margin: 3rem;
+}
+
 .myName {
     margin-top: 3rem;
     text-align: center;
@@ -47,7 +51,6 @@ nav {
 main {
     grid-area: main;
     text-align: center;
-    background-color: aqua;
 }
 
 .content {
@@ -86,6 +89,16 @@ span {
 }
 
 /* Portfolio */
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.portfolioGrid img {
+    width: 300px;
+    margin: 0 auto;
+}
 
 /* Social */
 .socialIcon {
