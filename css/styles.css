@@ -76,6 +76,18 @@ span {
     margin: 5rem auto;
 }
 
+/* About */
+.hobbies {
+    padding: 0;
+}
+
+.hobby {
+    list-style: none;
+}
+
+/* Portfolio */
+
+/* Social */
 .socialIcon {
     border-radius: 50%;
 }
