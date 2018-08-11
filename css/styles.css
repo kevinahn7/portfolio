@@ -69,3 +69,7 @@ span {
     width: 70%;
     margin: 5rem auto;
 }
+
+.socialIcon {
+    border-radius: 50%;
+}
