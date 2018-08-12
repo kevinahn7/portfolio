@@ -50,10 +50,13 @@ nav a:hover {
     padding: .3rem;
     margin: .3rem auto;
     width: 70%;
+    font-size: 1.3rem;
 }
 
 .currentPage {
-    background-color: rgb(51,122,183);
+    color: rgb(103, 200, 255);
+    font-weight: bold;
+
 }
 
 .pageHeader {
@@ -74,11 +77,6 @@ main {
         'nav main'
         'footer footer';
     height: 100%;
-}
-
-span {
-    font-size: 2rem;
-    margin: 20px;
 }
 
 footer {
@@ -107,13 +105,34 @@ footer {
     margin: 5rem auto;
 }
 
+.skills {
+    font-size: 2rem;
+    margin: 20px;
+}
+
 /* About */
+.aboutHeader {
+    border-bottom: 1px lightgray solid;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.enjoyments {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .hobbies {
     padding: 0;
 }
 
 .hobby {
     list-style: none;
+}
+
+.aboutContent {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 /* Portfolio */
