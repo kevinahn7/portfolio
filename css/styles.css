@@ -20,26 +20,8 @@ nav {
     height: 100%;
 }
 
-.navLinks {
-    display: grid;
-    grid-gap: 10px;
-    list-style: none;
-    padding: 0;
-}
-
-.navLinks a {
-    padding: 10px;
+nav a:hover {
     text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
-.mainNav a {
-    text-decoration: none;
-}
-
-.pageHeader {
-    margin: 3rem;
 }
 
 .myName {
@@ -48,6 +30,34 @@ nav {
     padding: 10px;
     margin-bottom: 40%;
     color: black;
+}
+
+.navLinks {
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.navLinks a {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.pageLink {
+    padding: .4rem;
+    margin: .4rem auto;
+    width: 60%;
+}
+
+.currentPage {
+    background-color: lightblue;
+}
+
+.pageHeader {
+    margin: 3rem;
 }
 
 main {
@@ -99,7 +109,7 @@ span {
 
 .portfolioGrid img {
     width: 300px;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 /* Social */
