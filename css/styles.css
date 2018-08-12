@@ -16,7 +16,7 @@ nav {
     grid-area: nav;
     border-right: rgba(173, 173, 173, .7) 1px solid;
     padding-right: 10px;
-    position: fixed;
+    /* position: fixed; */
     height: 100%;
 }
 
@@ -28,7 +28,7 @@ nav a:hover {
     margin-top: 3rem;
     text-align: center;
     padding: 10px;
-    margin-bottom: 40%;
+    margin-bottom: 50%;
     color: black;
 }
 
@@ -47,13 +47,13 @@ nav a:hover {
 }
 
 .pageLink {
-    padding: .4rem;
-    margin: .4rem auto;
-    width: 60%;
+    padding: .3rem;
+    margin: .3rem auto;
+    width: 70%;
 }
 
 .currentPage {
-    background-color: lightblue;
+    background-color: rgb(113, 151, 214);
 }
 
 .pageHeader {
