@@ -16,7 +16,6 @@ img {
 
 nav {
     grid-area: nav;
-    border-right: rgba(173, 173, 173, .7) 1px solid;
     height: 100%;
     a {
         &:hover {
@@ -82,7 +81,8 @@ nav {
 main {
     grid-area: main;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-left: rgba(173, 173, 173, .7) 1px solid;
 }
 
 .content {
@@ -176,7 +176,12 @@ footer {
     }
 }
 
-/* Social */
+/* Contact */
+main {
+    .contactWays {
+        height: 100%;
+    }
+}
 .email {
     a {
         color: black;

@@ -16,7 +16,6 @@ nav {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: nav;
-  border-right: rgba(173, 173, 173, 0.7) 1px solid;
   height: 100%;
 }
 
@@ -90,7 +89,8 @@ main {
   -ms-grid-column: 2;
   grid-area: main;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-left: rgba(173, 173, 173, 0.7) 1px solid;
 }
 
 .content {
@@ -199,7 +199,11 @@ footer {
   margin: 2rem auto;
 }
 
-/* Social */
+/* Contact */
+main .contactWays {
+  height: 100%;
+}
+
 .email a {
   color: black;
   text-align: center;
