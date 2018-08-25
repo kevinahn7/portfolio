@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .pageHeader {
-  margin: 3rem;
+  margin: 3rem auto 0 auto;
 }
 
 main {
@@ -145,12 +145,13 @@ footer {
 .aboutHeader {
   border-bottom: 1px lightgray solid;
   width: 30%;
-  margin: 0 auto;
+  margin: 1.5rem auto 0.5rem auto;
+  padding-bottom: 0.5rem;
 }
 
 .enjoyments {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .hobbies {
@@ -164,6 +165,12 @@ footer {
 .aboutContent {
   max-width: 70%;
   margin: 0 auto;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.aboutContent p {
+  margin-bottom: 0;
 }
 
 /* Portfolio */
