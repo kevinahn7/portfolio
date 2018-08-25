@@ -17,6 +17,7 @@ img {
 nav {
     grid-area: nav;
     height: 100%;
+    border-right: rgba(173, 173, 173, .7) 1px solid;
     a {
         &:hover {
             text-decoration: none;
@@ -82,7 +83,6 @@ main {
     grid-area: main;
     text-align: center;
     padding-bottom: 50px;
-    border-left: rgba(173, 173, 173, .7) 1px solid;
 }
 
 .content {
@@ -147,7 +147,7 @@ footer {
     list-style: none;
 }
 
-.aboutContent {
+.aboutMain {
     max-width: 70%;
     margin: 0 auto;
     line-height: 2rem;
@@ -177,11 +177,10 @@ footer {
 }
 
 /* Contact */
-main {
-    .contactWays {
-        height: 100%;
-    }
+.contactWays {
+    height: 70%;
 }
+
 .email {
     a {
         color: black;
