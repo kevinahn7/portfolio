@@ -199,6 +199,11 @@ footer {
   margin: 2rem auto;
 }
 
+.moreToCome {
+  text-align: center;
+  margin: auto;
+}
+
 /* Contact */
 .contactWays {
   height: 70%;
