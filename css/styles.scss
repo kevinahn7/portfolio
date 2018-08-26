@@ -39,8 +39,8 @@ nav {
     grid-gap: 10px;
     list-style: none;
     padding: 0;
-    margin: auto;
-    width: 45%;
+    margin: 0 auto;
+    width: auto;
     a {
         color: black;
         text-align: center;
@@ -185,6 +185,11 @@ footer {
 /* Contact */
 .contactWays {
     height: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10%;
 }
 
 .email {
