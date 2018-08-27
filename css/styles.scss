@@ -133,9 +133,8 @@ footer {
 /* About */
 .aboutHeader {
     border-bottom: 1px lightgray solid;
-    width: 30%;
-    margin: 0 auto 0.5rem auto;
-    padding-bottom: 0.5rem;
+    width: 185.5px;
+    padding-bottom: 1rem;
 }
 
 .enjoyments {
@@ -152,12 +151,16 @@ footer {
 }
 
 .aboutMain {
+    text-align: left;
     max-width: 70%;
     margin: 0 auto;
     line-height: 2rem;
     font-size: 1.2rem;
     p {
         margin-bottom: 0;
+    }
+    .pageHeader {
+        text-align: center;
     }
 }
 
@@ -299,10 +302,6 @@ footer {
             font-size: 13px;
         }
     }
-
-    .aboutHeader {
-        width: 50%;
-    }
 }
 
 @media(max-width: 750px) {
@@ -340,10 +339,6 @@ footer {
 
     .me {
         width: 75%;
-    }
-
-    .aboutHeader {
-        width: 60%;
     }
 }
 
@@ -383,9 +378,5 @@ footer {
         font-size: 1.3rem;
         margin: 10px;
         display: block;
-    }
-
-    .aboutHeader {
-        width: 100%;
     }
 }
