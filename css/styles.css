@@ -40,7 +40,7 @@ nav a:hover {
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  width: 85px;
+  width: 110px;
 }
 
 .navLinks a {
@@ -69,6 +69,14 @@ nav a:hover {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.navLinks i {
+  margin-right: 5px;
+}
+
+.icons {
+  display: inline-block;
 }
 
 .pageLink {
@@ -343,7 +351,7 @@ footer {
     margin: 1rem auto;
   }
   .navLinks {
-    width: 100px;
+    width: 130px;
   }
   .pageLink {
     font-size: 1.5rem;
@@ -384,7 +392,7 @@ footer {
     font-size: 1rem;
   }
   .navLinks {
-    width: 70px;
+    width: 90px;
   }
   footer {
     height: 25px;

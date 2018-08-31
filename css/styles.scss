@@ -40,7 +40,7 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    width: 85px;
+    width: 110px;
     a {
         color: black;
         text-align: center;
@@ -63,6 +63,13 @@ nav {
             transform: scaleX(1);
         }
     }
+    i {
+        margin-right: 5px;
+    }
+}
+
+.icons {
+    display: inline-block;
 }
 
 .pageLink {
@@ -312,7 +319,7 @@ footer {
     }
 
     .navLinks {
-        width: 100px;
+        width: 130px;
     }
 
     .pageLink {
@@ -360,7 +367,7 @@ footer {
     }
 
     .navLinks {
-        width: 70px;
+        width: 90px;
     }
 
     footer {
