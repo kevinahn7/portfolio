@@ -40,7 +40,7 @@ nav a:hover {
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  width: 45%;
+  width: 85px;
 }
 
 .navLinks a {
@@ -132,7 +132,6 @@ footer {
 /* Index */
 .me {
   border-radius: 50%;
-  border: 3px solid black;
   margin-top: 5rem;
 }
 
@@ -278,12 +277,6 @@ footer {
   border-radius: 50%;
 }
 
-@media (max-width: 1855px) {
-  .navLinks {
-    width: 70%;
-  }
-}
-
 @media (max-width: 1720px) {
   .myName {
     font-size: 1.6rem;
@@ -320,12 +313,6 @@ footer {
   }
 }
 
-@media (max-width: 1200px) {
-  .navLinks {
-    width: 90%;
-  }
-}
-
 @media (max-width: 940px) {
   .portfolioGrid {
     -ms-grid-columns: 1fr;
@@ -355,7 +342,7 @@ footer {
     margin: 1rem auto;
   }
   .navLinks {
-    width: 25%;
+    width: 100px;
   }
   .pageLink {
     font-size: 1.5rem;
@@ -363,9 +350,6 @@ footer {
 }
 
 @media (max-width: 540px) {
-  .navLinks {
-    width: 35%;
-  }
   .me {
     width: 75%;
   }
@@ -379,7 +363,7 @@ footer {
     font-size: 1rem;
   }
   .navLinks {
-    width: 30%;
+    width: 70px;
   }
   footer {
     height: 25px;

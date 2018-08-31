@@ -40,7 +40,7 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    width: 45%;
+    width: 85px;
     a {
         color: black;
         text-align: center;
@@ -116,7 +116,6 @@ footer {
 /* Index */
 .me {
     border-radius: 50%;
-    border: 3px solid black;
     margin-top: 5rem;
 }
 
@@ -240,12 +239,6 @@ footer {
 }
 
 // Media Queries
-@media(max-width: 1855px) {
-    .navLinks {
-        width: 70%;
-    }
-}
-
 @media(max-width: 1720px) {
     .myName {
         font-size: 1.6rem;
@@ -285,12 +278,6 @@ footer {
     }
 }
 
-@media(max-width: 1200px) {
-    .navLinks {
-        width: 90%;
-    }
-}
-
 @media(max-width: 940px) {
     .portfolioGrid {
         grid-template-columns: 1fr;
@@ -324,7 +311,7 @@ footer {
     }
 
     .navLinks {
-        width: 25%;
+        width: 100px;
     }
 
     .pageLink {
@@ -333,10 +320,6 @@ footer {
 }
 
 @media(max-width: 540px) {
-    .navLinks {
-        width: 35%;
-    }
-
     .me {
         width: 75%;
     }
@@ -352,7 +335,7 @@ footer {
     }
 
     .navLinks {
-        width: 30%;
+        width: 70px;
     }
 
     footer {
