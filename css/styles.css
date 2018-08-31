@@ -84,6 +84,7 @@ nav a:hover {
 
 .pageHeader {
   margin: 3rem auto 0 auto;
+  padding-bottom: 1rem;
 }
 
 main {
@@ -104,10 +105,6 @@ main {
       grid-template-rows: auto;
       grid-template-areas: 'nav main';
   height: 100%;
-}
-
-.pageHeader {
-  padding-bottom: 1rem;
 }
 
 footer {
@@ -135,21 +132,25 @@ footer {
   margin-top: 5rem;
 }
 
+.myself {
+  margin-top: 2rem;
+}
+
 .mySkills {
   width: 70%;
-  margin: 5rem auto;
+  margin: 3rem auto 0 auto;
 }
 
 .skills {
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin: 20px;
 }
 
 /* About */
 .aboutHeader {
   border-bottom: 1px lightgray solid;
-  width: 185.5px;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
+  margin-top: 2rem;
 }
 
 .enjoyments {
@@ -167,7 +168,7 @@ footer {
 
 .aboutMain {
   text-align: left;
-  max-width: 70%;
+  max-width: 50%;
   margin: 0 auto;
   line-height: 2rem;
   font-size: 1.2rem;
@@ -297,16 +298,16 @@ footer {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  .aboutMain {
+    max-width: 65%;
+  }
   .content {
     -ms-grid-columns: 15% 85%;
         grid-template-columns: 15% 85%;
   }
   .myName {
-    font-size: 1.3rem;
-    padding: 5%;
-  }
-  .myName {
     font-size: 1.7rem;
+    padding: 5%;
   }
   .pageLink {
     font-size: 1.2rem;
@@ -352,6 +353,26 @@ footer {
 @media (max-width: 540px) {
   .me {
     width: 75%;
+  }
+  .aboutMain {
+    max-width: 80%;
+    font-size: 1rem;
+  }
+  .aboutMain h4 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .aboutMain h6 {
+    font-size: 1rem;
+  }
+  .pageHeader {
+    font-size: 1.7rem;
+  }
+  .aboutHeader {
+    font-size: 1.4rem;
+  }
+  .enjoyments {
+    font-size: 1.2rem;
   }
 }
 
